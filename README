@@ -1,0 +1,14 @@
+This is a patch of VPNC 0.5.3 for Solaris 11.
+
+How To Apply
+-------------
+
+In the direcotry you exetracted VPNC 0.5.3, then
+run following command.
+
+sol11 $ patch -p1 < patch-vpnc-solaris 
+patching file config.c
+patching file sysdep.c
+patching file tunip.c
+patching file vpnc.c
+
